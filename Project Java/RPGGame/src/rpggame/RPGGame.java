@@ -134,8 +134,8 @@ public class RPGGame {
             }
         }
        
-        System.out.println("\nYou took the fear away from the people of Caldemount.\nYour name " + playerName + " shall be written in the Hall of Great Adventurer and you will be known as the \"Greatest Hero That Has Ever Lived\".\nThe King is indebted to you for your bravery and as a reward gives you 1000 gold for saving this kingdom snd its people.");
-        money += 1000;
+        System.out.println("\nYou took the fear away from the people of Caldemount.\nYour name " + playerName + " shall be written in the Hall of Great Adventurer and you will be known as the \"Greatest Hero That's Ever Lived\".\nThe King is indebted to you for your bravery and as a reward gives you 10000 gold for saving this kingdom and its people.");
+        money += 10000;
         return;
     }
    
@@ -187,7 +187,7 @@ public class RPGGame {
             }
            
             if (health <= 0) {
-                System.out.println("You died fighting the " + enemyNames[currentEnemyIndex] + ".\nThe rotten remains of your body are the only witness of your existence...");
+                System.out.println("You died fighting the " + enemyNames[currentEnemyIndex] + ".\nThe decayed remnants of your body stand as the only proof you ever lived...");
                 System.exit(0);
             }
         }
