@@ -187,7 +187,7 @@ public class RPGGame {
             }
            
             if (health <= 0) {
-                System.out.println("You died fighting the " + enemyNames[currentEnemyIndex] + ".\nThe blank gravestone is the only witness of your existence...");
+                System.out.println("You died fighting the " + enemyNames[currentEnemyIndex] + ".\nThe rotten remains of your body are the only witness of your existence...");
                 System.exit(0);
             }
         }
