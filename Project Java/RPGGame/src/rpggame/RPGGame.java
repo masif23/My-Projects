@@ -16,7 +16,7 @@ public class RPGGame {
     private int money = 100;
     private int currentEnemyIndex = 0;
     private final String[] enemyNames = {"Slime", "Skeleton", "Frost Giant", "Lava Golem", "Wyvern", "White Dragon"};
-    private final int[] enemyHP = {10, 30, 80, 100, 220, 300};
+    private final int[] enemyHP = {30, 50, 100, 200, 350, 500};
     public final int[] enemyAttack = {10, 20, 40, 50, 100, 200};
    
     public void start() {
